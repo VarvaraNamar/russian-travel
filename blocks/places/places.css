@@ -1,6 +1,6 @@
 .places {
   margin: 0 auto;
-  padding: 92px 0;
+  padding: 92px 0 0;
   max-width: 984px;
   display: grid;
   gap: 80px;
@@ -8,7 +8,7 @@
 
 @media (max-width: 1024px) {
   .places {
-    padding: 86px 0px;
+    padding: 86px 0 0;
     max-width: 90.625%;
   }
 }
@@ -16,23 +16,29 @@
 @media (max-width: 880px) {
   .places {
     max-width: 93.75%;
+    gap: 76px;
   }
 }
 @media (max-width: 767px) {
   .places {
     max-width: 100%;
-    gap: 50px;
   }
 }
 
 @media (min-width:500px) and (max-width: 768px) {
   .places {
-    padding: 88px 24px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .places {
+    gap: 50px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    padding: 60px 0;
+    padding: 60px 0 0;
   }
 }
