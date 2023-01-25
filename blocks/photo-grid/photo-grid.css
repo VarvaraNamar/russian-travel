@@ -1,18 +1,19 @@
 .photo-grid {
   width: 100%;
-  padding: 0 48px 92px;
+  padding: 0 48px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
   .photo-grid {
-    padding: 0 24px 88px;
+    padding: 0 24px;
   }
 }
 
+
 @media screen and (max-width: 500px) {
   .photo-grid {
-    padding: 0 16px 64px;
+    padding: 0 16px;
   }
 }
 

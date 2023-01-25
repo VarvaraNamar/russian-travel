@@ -1,0 +1,24 @@
+.place__image {
+  margin: 0;
+  padding: 0;
+  grid-area: 'img';
+  max-width: 460px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+@media (max-width: 631px) {
+  .place__image {
+    max-width: fit-content;
+  }
+}

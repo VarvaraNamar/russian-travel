@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid__item-list {
-    gap: 13px 16px;
+    gap: 12px 16px;
   }
 }
 
